@@ -88,11 +88,33 @@ header .btn:hover {
 /************************************/
 #my-work {
     margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 17px;
 }
 
 #my-work h2 {
     color: black;
 }
+
 #my-work .cards {
     padding-top: 30px;
+}
+
+#my-work .card {
+    border-color: black;
+    padding-bottom: 80px;
+}
+
+#my-work .card:hover {
+    border-color: var(--orange_color);
+}
+
+#my-work i {
+    padding-top: 70px;
+}
+
+#my-work .card-title {
+    color: var(--orange_color);
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
